@@ -29,7 +29,7 @@ To get started with the Lord of the Rings SDK, follow these steps:
 
 ```kotlin
    val apiKey = "your-api-key"
-   val lordOfTheRingsSDK = LordOfTheRingsSDK(apiKey)
+   val lordOfTheRingsSDK = LordOfTheRingsSDK(apiKey) // or set the environment variable `TOKEN`
 ```
 
 3. Use the available methods to retrieve movies and quotes:
@@ -58,14 +58,10 @@ The Lord of the Rings SDK includes unit tests to ensure the correctness of its f
 1. Clone the repository from GitHub:
 
 ```kotlin
-git clone https://github.com/your-username/lord-of-the-rings-sdk.git
+git clone https://github.com/Vrushalv/vrushal-sdk.git
 ```
 
 2. Navigate to the project directory:
-
-```kotlin
-cd lord-of-the-rings-sdk
-```
 
 3. Build and run the tests using Gradle:
 
